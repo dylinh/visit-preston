@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Montserrat, serif;
+
+}
+
+#header {
+    color: white;
+    background-image: url("https://lh5.googleusercontent.com/p/AF1QipNxAtVBdX5UYAnpEk_Ml7A0X7WHeXvYME4akulT=w1080-h624-n-k-no");
+    height: 343px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#visit-header { 
+    background-color: #1D3577;
+    border-radius: 10px;
+    padding: 5px 12px;
+}
+
+#description {
+    background-color: #457B9D;
+    text-align: center;
+    width: 500px;
+    margin-top: -5px;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+#activities-section {
+    height: 470px;
+    text-align: center;
+    font-family: Montserrat, serif;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    width: 720px;
+
+}
+
+#activities {
+    display: flex;
+    align-items: center;
+}
+
+
+.imgs {
+    width:120px;
+    height:120px;
+    border-radius: 50%
+}
+
+.border {
+    border: 3px dotted blue;
+}
+
+#activities-title {
+    margin: 0px;
+    padding: 55px 140px;
+    width: 500px
+
+}
+
+.activities-size {
+    height: 30px;
+    padding: 0 50px 40px 40px;
+}
+
+#guide-section {
+    width: 720px;
+    height: 400px;
+    background-color: white;
+}
+
+#card {
+    width: 400px;
+    height: 300px;
+    background-color: #A8DADC;
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: solid #1D3557 8px;
+
+}
+
+#dylinh {
+    width: 180px;
+    height: 250px;
+    /*padding: 20px 10px 0px 11px;*/
+    margin: 20px 15px;
+    border-radius: 19px;
+}
+
+#quote {
+    font-style: italic;
+}
+
+#card-info {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+#guide-info {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#my-name {
+    margin-top: 25px;
+}
+
+#italic {
+    font-style: italic;
+}
